@@ -1,0 +1,14 @@
+{
+  "id": "paseo-tps",
+  "description": "Live tokens-per-second and time-to-first-token pill in the composer.",
+  "requirements": {
+    "paseo": ">=0.11.0"
+  },
+  "build": [
+    [
+      "npm",
+      "ci",
+      "--omit=dev"
+    ]
+  ]
+}
